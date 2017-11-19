@@ -5,7 +5,8 @@
 docker-compose run web rails new . --force --database=postgresql
 ```
 
-##Create user
+###Create user
+Only need to do this if on a linux machine
 ```
 sudo chown -R $USER:$USER
 ```
